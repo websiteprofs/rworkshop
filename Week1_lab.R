@@ -8,6 +8,7 @@ range(x)
 sd(x)
 var(x)
 summary(x)
+<<<<<<< HEAD
 x
 pulse <- c(120, 134, 152)
 exercise_level <- c("light", "intense", "intense")
@@ -29,3 +30,6 @@ exercise_dataframe[exercise_dataframe$pulse > 130,]
 completed_training <- c(1, 0, 1)
 exercise_dataframe[completed_training==1,]
 exercise_dataframe[completed_training==0,]
+=======
+x
+>>>>>>> 4eefa36593a68740c96db72e45c197d6f7337913
