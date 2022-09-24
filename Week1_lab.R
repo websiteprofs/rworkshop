@@ -30,6 +30,25 @@ exercise_dataframe[exercise_dataframe$pulse > 130,]
 completed_training <- c(1, 0, 1)
 exercise_dataframe[completed_training==1,]
 exercise_dataframe[completed_training==0,]
-=======
-x
->>>>>>> 4eefa36593a68740c96db72e45c197d6f7337913
+data()
+cars
+summary(cars)
+plot(cars)
+hist(cars$speed)
+hist(cars$dist)
+plot(density(cars$speed))
+plot(density(cars$dist))
+Thai_tourist <- read.csv("C:/Users/GODFREY/Documents/Workshop/R Workshop/Week 1/Thaitourism1.csv", header= TRUE)
+Thai_tourist
+names(Thai_tourist)
+head(Thai_tourist)
+str(Thai_tourist)
+summary(Thai_tourist)
+Thai_tourist_full <- read.csv("C:/Users/GODFREY/Documents/Workshop/R Workshop/Week 1/Thaitourism2.csv", header= TRUE)
+Thai_tourist_full
+Thai_2016<-Thai_tourist[Thai_tourist$Year==2016,]
+Thai_2016
+Thai_UK <- Thai_tourist_full[Thai_tourist_full$nationality=="UnitedKingdom",]
+Thai_UK
+barplot(Thai_2016$Tourists_1000s, names.arg = Thai_2016$Region, col = rainbow(8))
+hist(Thai_UK$tourists, labels = TRUE, col = rainbow(8), xlab="No. of UK Tourists per month")
