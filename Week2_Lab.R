@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 install.packages('mosaic')
 library(mosaic)
 plotDist('norm', mean=10, sd=2, kind='density')
@@ -8,3 +9,15 @@ plotDist('norm', mean=0, sd=1, kind='cdf')
 plotDist('binom', size=20, prob=0.7)
 plotDist('binom', size=20, prob=0.2)
 plotDist('binom', size=100, prob=0.4)
+=======
+install.packages('mosaic')
+library(mosaic)
+plotDist('norm', mean=10, sd=2, kind='density')
+plotDist('norm', mean=0, sd=1, kind='density')
+plotDist('norm', mean=0, sd=0.5, kind='density')
+plotDist('norm', mean=10, sd=2, kind='cdf')
+plotDist('norm', mean=0, sd=1, kind='cdf')
+plotDist('binom', size=20, prob=0.7)
+plotDist('binom', size=20, prob=0.2)
+plotDist('binom', size=100, prob=0.4)
+>>>>>>> ed80d313254edc656a905391e6483d54ac7ca87e
